@@ -22,7 +22,7 @@ public class CSVService {
             List<CSV> csvList = new ArrayList<>();
 
             // 예시 파일들을 배열에 추가
-            String[] fileNames = {"clinic.csv"};
+            String[] fileNames = {"gHospital.csv"};
             
 
             for (String fileName : fileNames) {

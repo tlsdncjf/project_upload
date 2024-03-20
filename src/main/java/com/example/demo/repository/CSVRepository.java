@@ -11,7 +11,7 @@ import com.example.demo.vo.CSV;
 public interface CSVRepository {
 
 	@Insert({ "<script>",
-			"INSERT INTO clinic (encryptedSymbol, hName, typeCode, typeName, areaCode, areaName, addrCode, addrName, detailArea, zipCode, address, hNumber, hHomepage, openedYear, x, y) VALUES ",
+			"INSERT INTO gHospital (encryptedSymbol, hName, typeCode, typeName, areaCode, areaName, addrCode, addrName, detailArea, zipCode, address, hNumber, hHomepage, openedYear, x, y) VALUES ",
 			"<foreach collection='csvList' item='item' index='index' separator=','>",
 			"(#{item.encryptedSymbol},#{item.hName}, #{item.typeCode}, #{item.typeName}, #{item.areaCode}, #{item.areaName}, #{item.addrCode}, #{item.addrName}, #{item.detailArea}, #{item.zipCode}, #{item.address}, #{item.hNumber}, #{item.hHomepage}, #{item.openedYear}, #{item.x}, #{item.y})",
 			"</foreach>", "</script>" })

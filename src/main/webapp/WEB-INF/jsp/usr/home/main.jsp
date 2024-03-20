@@ -482,7 +482,7 @@ footer {
 	</div>
 	<ul id="menu">
 		<li><a href="#">채용 공고</a></li>
-		<li><a href="../home/APITest2">병원 위치</a></li>
+		<li><a href="../gHospital/list">병원 위치</a></li>
 		<li><a href="#">병원 리뷰</a></li>
 		<li><a href="#">자유게시판</a></li>
 		<li><a href="#">공지사항</a></li>
